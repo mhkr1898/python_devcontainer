@@ -1,0 +1,26 @@
+{
+	"name": "pydev",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "py",
+	"workspaceFolder": "/app",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"christian-kohler.path-intellisense",
+				"esbenp.prettier-vscode",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"GitHub.copilot",
+				"batisteo.vscode-django",
+				"vscode-icons-team.vscode-icons",
+				"dbaeumer.vscode-eslint",
+				"narsenico.vscode-progressive-increment",
+				"ms-azuretools.vscode-docker",
+				"stringham.move-ts",
+				"njpwerner.autodocstring",
+				"eamodio.gitlens",
+				"aaron-bond.better-comments"
+			]
+		}
+	}
+}

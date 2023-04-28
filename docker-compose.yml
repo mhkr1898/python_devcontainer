@@ -1,0 +1,19 @@
+version: '3.9'
+services:
+  py:
+    image: python3:11
+    environment:
+      - GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+    build:
+      context: .
+      dockerfile: docker/py.dockerfile
+    env_file:
+      - .env
+    volumes:
+      - C:/pydev/:/app # Insert top level on your pc here [HERE] :/app
+    privileged: true
+    command: bash -c "python3 -m venv venv &&
+                     source venv/bin/activate &&
+                     pip install -r src/requirements.txt &&
+                     chown -R vscode:vscode /app &&
+                     sleep infinity"
