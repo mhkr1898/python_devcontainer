@@ -21,7 +21,8 @@
 				"eamodio.gitlens",
 				"aaron-bond.better-comments",
 				"donjayamanne.python-extension-pack",
-				"ms-python.pylint"
+				"ms-python.pylint",
+				"njqdev.vscode-python-typehint"
 			]
 		}
 	}
