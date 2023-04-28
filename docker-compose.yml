@@ -10,7 +10,7 @@ services:
     env_file:
       - .env
     volumes:
-      - C:/pydev/:/app # Insert top level on your pc here [HERE] :/app
+      - C:/pydev/:/app
     privileged: true
     command: bash -c "python3 -m venv venv &&
                      source venv/bin/activate &&

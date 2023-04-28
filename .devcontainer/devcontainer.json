@@ -19,7 +19,8 @@
 				"stringham.move-ts",
 				"njpwerner.autodocstring",
 				"eamodio.gitlens",
-				"aaron-bond.better-comments"
+				"aaron-bond.better-comments",
+				"donjayamanne.python-extension-pack"
 			]
 		}
 	}
