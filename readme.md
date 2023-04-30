@@ -162,4 +162,27 @@ comment out highlighted section
 control + /
 ```
 
+## Prettier comments
+
+<!-- #! Important -->
+<span style="color:#FF0000;">Important</span>
+```bash
+#!
+```
+<!-- #? Uncertainty -->
+<span style="color:#3498DB;">Uncertainty</span>
+```bash
+#?
+```
+<!-- #// Remove // -->
+<span style="color:#474747;">Remove</span>
+```bash
+#//
+```
+<!-- # Todo -->
+<span style="color:#FF8C00;">Todo</span>
+```bash
+# todo
+```
+
 [MIT-License](LICENSE)

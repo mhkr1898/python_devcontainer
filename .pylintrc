@@ -1,8 +1,0 @@
-[FORMAT]
-max-line-length=100
-disable=E0401
-
-[pycodestyle]
-ignore = E203
-
-
