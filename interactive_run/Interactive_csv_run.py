@@ -1,5 +1,5 @@
 import pandas as pd
-from src.function
+from src.functions.
 
 ORIGINAL = "interactive_run/sample.csv"
 DF_ORIGINAL = pd.read_csv(ORIGINAL, sep=";")
