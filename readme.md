@@ -70,15 +70,15 @@ git checkout -b <branch> # new branch to create
     ```bash
     git push origin <branch> # Specifying branch is often not needed 
     ```
-15. Go to https://github.com/[YOURPROJECT] and merge the pushed content.
-16. Pull lastest changes and rebranch
+8. Go to https://github.com/[YOURPROJECT] and merge the pushed content.
+9. Pull lastest changes and rebranch
     ```bash
     git checkout main
     git pull
     git branch -d <branch> # branch to delete
     git checkout -b <branch> # new branch to create
     ```
-20. Go to step 6.
+10. Go to step 6.
 
 ## Python
 
